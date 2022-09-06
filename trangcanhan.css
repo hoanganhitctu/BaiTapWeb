@@ -1,0 +1,443 @@
+body{
+    font-family: Tahoma, Arial;
+    /* font-family: 'Roboto', sans-serif; */
+    font-size:13px;
+    width: 100%;
+    margin:0px auto;
+
+    background: url(https://res.cloudinary.com/dn4nxz7f0/image/upload/v1603170394/navigation_trong_suot/pexels-life-of-pix-7919_zydtt2.jpg) no-repeat;
+    background-size: cover;
+
+}
+
+/* ---------------------------------Phan menu top @start---------------------------------------- */
+#menu_top {
+    display: block;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 80px;
+    width:100%;
+    background: rgba(0,0,0,0.4);
+    padding: 0px 10px;
+    box-sizing: border-box;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12),
+    0 2px 2px rgba(0,0,0,0.12),
+    0 4px 4px rgba(0,0,0,0.12),
+    0 8px 8px rgba(0,0,0,0.12),
+    0 16px 16px rgba(0,0,0,0.12);
+
+}
+
+#menu_top ul{
+    float: right;
+    margin: 0px;
+    padding: 0px;
+}
+
+#menu_top ul li{
+    list-style: none;
+    float: left;
+}
+
+#menu_top ul li a{
+    text-decoration: none; /*dung de xoa bo gạch chan*/
+    display: block;
+    position: relative;
+    height:80px; 
+    line-height:80px;
+    padding: 0px 20px;
+    box-sizing: border-box;
+    color:#FFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+
+    font-size: 20px;
+
+}
+
+#menu_top ul li a:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    transform-origin: right;
+    z-index: -1;
+    transform: scaleX(0);
+    transition:  transform 0.5s;
+}
+
+#menu_top ul li a:hover:before{
+transform-origin: left;
+transform: scaleX(1);
+}
+
+#menu_top ul li a:hover{
+    color: black;
+    cursor: pointer;
+}
+
+/* Nut Home -begin */
+#brand{
+    float: left;
+    height: 100%;
+    list-style: none;
+    line-height: 100%;
+    margin: 0px 20px;
+    padding: 0px;
+}
+#brand h2{
+    float: right;
+    display: flex;
+    margin:0;
+    padding: 0;
+    
+}
+
+#brand h2 a{
+    position: relative;
+    display: block;
+    height: 80px;
+    line-height: 80px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+
+    font-size: 50px;
+
+}
+#brand a:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    transform-origin: right;
+    z-index: -1;
+    transform: scaleX(0);
+    transition:  transform 0.5s;
+}
+#brand a:hover:before{
+    transform-origin: left;
+    transform: scaleX(1);
+}
+#brand a:hover{
+    color: #262626;
+}
+/* Nut Home -end */
+
+/* ---------------------------------Phan menu top @end---------------------------------------- */
+
+/* ######## */
+
+/* ---------------------------------Phan main @start----------------------------------------- */
+#main {
+    display: block;
+    text-align: center;
+    width: auto;
+    padding: 250px 0px;
+    margin: 0px;
+}
+
+/* Phan Tong Quan - @start */
+#main #left {
+    float: left;
+    width: 40%;
+    padding: 0;
+    margin: 0;
+}
+
+#main #right {
+    float: right;
+    width: 60%;
+    padding: 0;
+    margin: 0;
+}
+
+#main #right #box{
+    width: auto;
+    /* background: rgba(0,0,0,0.12); */
+    box-sizing: border-box;
+    /* box-shadow: 0 1px 1px rgba(0,0,0,0.12),
+    0 2px 2px rgba(0,0,0,0.12),
+    0 4px 4px rgba(0,0,0,0.12),
+    0 8px 8px rgba(0,0,0,0.12),
+    0 16px 16px rgba(0,0,0,0.12); */
+}
+
+#main #right #box:hover{
+    background: rgba(0,0,0,0.4);
+    box-sizing: border-box;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12),
+    0 2px 2px rgba(0,0,0,0.12),
+    0 4px 4px rgba(0,0,0,0.12),
+    0 8px 8px rgba(0,0,0,0.12),
+    0 16px 16px rgba(0,0,0,0.12);
+}
+
+#main #right #text {
+    display: block;
+    font-size: 16px;
+    text-align: left;
+    color: #FFF;
+    float: right;
+
+    padding: 10px 10px ;
+    margin: 0 20%;
+    background: rgba(0,0,0,0.12);
+    box-sizing: border-box;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.36),
+    0 2px 2px rgba(0,0,0,0.36),
+    0 4px 4px rgba(0,0,0,0.36),
+    0 8px 8px rgba(0,0,0,0.36),
+    0 16px 16px rgba(0,0,0,0.36);
+}
+
+#main #right #text:hover {
+    background: rgba(0,0,0,0.4);
+    box-sizing: border-box;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12),
+    0 2px 2px rgba(0,0,0,0.12),
+    0 4px 4px rgba(0,0,0,0.12),
+    0 8px 8px rgba(0,0,0,0.12),
+    0 16px 16px rgba(0,0,0,0.12);
+}
+
+
+#main #left #picture {
+    display: block;
+    color: #FFF;
+    float: left;
+    
+    /* padding: 10px 10px ;
+    margin: 0;
+    background: rgba(0,0,0,0.12);
+    box-sizing: border-box;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.36),
+    0 2px 2px rgba(0,0,0,0.36),
+    0 4px 4px rgba(0,0,0,0.36),
+    0 8px 8px rgba(0,0,0,0.36),
+    0 16px 16px rgba(0,0,0,0.36); */
+
+}
+#main #left #picture .image1{
+    width: 200px;
+    height: 200px;
+
+    padding: 10px 10px ;
+    margin: 0;
+    background: rgba(0,0,0,0.12);
+    box-sizing: border-box;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.36),
+    0 2px 2px rgba(0,0,0,0.36),
+    0 4px 4px rgba(0,0,0,0.36),
+    0 8px 8px rgba(0,0,0,0.36),
+    0 16px 16px rgba(0,0,0,0.36);
+}
+
+#main #left #picture .image1:hover{
+        background: rgba(0,0,0,0.4);
+        box-sizing: border-box;
+        box-shadow: 0 1px 1px rgba(0,0,0,0.12),
+        0 2px 2px rgba(0,0,0,0.12),
+        0 4px 4px rgba(0,0,0,0.12),
+        0 8px 8px rgba(0,0,0,0.12),
+        0 16px 16px rgba(0,0,0,0.12);
+}
+
+/* Phan Tong Quan - @end */
+
+#main #p1 {
+    font-size: 40px;
+    color: #FFF;
+}
+
+#main #p2 {
+    font-size: 20px;
+    color: #FFF;
+}
+
+#main a{
+    text-decoration: none;
+}
+
+#main #text_color{
+    color: rgb(86, 86, 213);
+}
+
+#main #box2{
+    display: block;
+    font-size: 16px;
+    color: #FFF;
+
+    padding: 10px 10px ;
+    margin: 0 20%;
+    background: rgba(0,0,0,0.12);
+    box-sizing: border-box;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.36),
+    0 2px 2px rgba(0,0,0,0.36),
+    0 4px 4px rgba(0,0,0,0.36),
+    0 8px 8px rgba(0,0,0,0.36),
+    0 16px 16px rgba(0,0,0,0.36);
+}
+
+#main #box2:hover {
+    background: rgba(0,0,0,0.4);
+    box-sizing: border-box;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12),
+    0 2px 2px rgba(0,0,0,0.12),
+    0 4px 4px rgba(0,0,0,0.12),
+    0 8px 8px rgba(0,0,0,0.12),
+    0 16px 16px rgba(0,0,0,0.12);
+    
+}
+
+/* section1 */
+#section1 {
+    width: 100%;
+    height: 50vh;
+    box-sizing: border-box;
+}
+
+#section1 #left {
+    width: 30%;
+    float: left;
+    min-height: 50hv;
+
+}
+
+#section1 #left .section1_left {
+    display: block;
+}
+
+#section1 #right {
+    width: 60%;
+    float: right;
+    min-height: 50vh;
+}
+
+#section1 #right .section1_right {
+    display: block;
+
+}
+
+
+#section2 {
+    width: 100%;
+    height: 50vh;
+    box-sizing: border-box;
+}
+
+#section2 #left {
+    width: 30%;
+    background: greenyellow;
+    float: left;
+    min-height: 50hv;
+
+}
+
+#section2 #left .section2_left {
+    display: block;
+}
+
+#section2 #right {
+    width: 60%;
+    background:#ccc;
+    float: right;
+    min-height: 50vh;
+}
+
+#section2 #right .section2_right {
+    display: block;
+
+}
+/* Buttons - @start */
+/* #section2 #right .section2_right .button{
+    border:none;
+    display:inline-block;
+    padding:8px 16px;
+    vertical-align:middle;
+    overflow:hidden;
+    text-decoration:none;
+    color:inherit ;
+    background-color:inherit;
+    text-align:center;
+    cursor:pointer;
+    white-space:nowrap;
+}
+
+#section2 #right .section2_right .button_left{
+    position:absolute;
+    top:50%;left:0%;
+    transform:translate(0%,-50%);
+    -ms-transform:translate(-0%,-50%);
+}
+
+#section2 #right .section2_right .button_right{
+    position:absolute;
+    top:50%;right:0%;
+    transform:translate(0%,-50%);
+    -ms-transform:translate(0%,-50%);
+} */
+
+/* Buttons - @end */
+
+
+
+/* ---------------------------------Phan main @end----------------------------------------- */
+
+/* ######## */
+
+/* ---------------------------------Phan footer @start----------------------------------------- */
+#footer {
+    display: block;
+    /* background:royalblue; */
+    width: 100%;
+    text-align: center;
+    height:50px;
+    color: #FFF;
+    clear: left;
+    line-height:50px;
+    position: fixed;
+    bottom:10px;
+
+    background: rgba(0,0,0,0.4);
+    padding: 0px 10px;
+    box-sizing: border-box;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12),
+    0 2px 2px rgba(0,0,0,0.12),
+    0 4px 4px rgba(0,0,0,0.12),
+    0 8px 8px rgba(0,0,0,0.12),
+    0 16px 16px rgba(0,0,0,0.12);
+}
+
+/* Icons_footer - begin */
+#footer a{
+    font-size: 20px;
+    padding: 0px 4px;
+    margin: 20px;
+    color: white;
+    float: center;
+}
+
+#footer a:hover{
+    color: rgb(86, 86, 213);
+    cursor: pointer;
+    background-color: #FFF;
+}
+/* Icons_footer -end */
+
+/* ---------------------------------Phan footer @end----------------------------------------- */
+
+/* ######## */
+
+.mySlides {display:none;}

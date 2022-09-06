@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Liên Hệ</title>
+
+        <link rel="stylesheet" href="./trangcanhan.css" type="text/css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    </head>
+
+    <body>
+        <!-- Phan menu_top -->
+        <nav id="menu_top">
+            <div id="brand">
+                <!-- <h2><a href="gioithieu.html"><img src="./snake1.png" alt="snake" width="50px" height="50px"></a></h2> -->
+                <h2><a href="trangchu.html" class="social-icon"><li class="fa fa-home"></li> <img src="./snake2.png" alt="snakes" width="50px" height="50px"></a></h2>
+            </div>
+
+            <ul>                
+                <li><a href="./trangchu.html" title="TRANG CHỦ" class="active">TRANG CHỦ</a></li>
+                <li><a href="./tongquan.html" title="TỔNG QUAN" class="active">TỔNG QUAN</a></li>
+                <li><a href="#" title="BLOG" class="active">BLOG</a></li>
+                <li><a href="./lienhe.html" title="LIÊN HỆ" class="active">LIÊN HỆ</a></li>
+            </ul>
+        </nav>
+
+        <!-- Phan main -->
+        <div id="main">
+                <div id="box2">
+                    <input type="button" id="btn1" value="Cá Nhân" />
+                    <input type="button" id="btn2" value="Tổ Chức" />
+                    <div id="content" class="div_1">
+                        Mời bạn chọn địa chỉ cần xem
+                    </div>
+                </div>
+
+            <script>
+                //Liên hệ  --bắt đầu --
+
+                var button1 = document.getElementById("btn1");
+                var button2 = document.getElementById("btn2");
+                var div = document.getElementById('content');
+
+                // Thiết lập click cho button 1
+                button1.onclick = function() {
+                    div.innerHTML = '- Địa chỉ: 216/14D, Đ. 3/2, P.Hưng Lợi, Q.Ninh Kiều, TP.Cần Thơ - Điện thoại: +0703696564 - Fax: +12345 6789876 - Email: hoanganh2001ct@gmail.com';
+                };
+
+                // Thiết lập click cho button 2
+                button2.onclick = function() {
+                    div.innerHTML = '- Địa chỉ: Khu II, Đ. 3/2, P. Xuân Khánh, Q.Ninh Kiều, Cần Thơ - Điện thoại: +0703696564 - Fax: +12345 6789876 - Email: anhb1908378@student.ctu.edu.vn';
+                };
+
+                // Giới thiệu --kết thúc--
+            </script>
+            
+
+        </div>
+
+        <div id="footer">
+            <div id="brand_footer">
+                <a href="https://www.facebook.com/profile.php?id=100014305509158" target="_blank" class="social-icon" ><i class="fa fa-facebook-f"></i></a>  
+                <a href="https://mobile.twitter.com/NguynHo26900443" target="_blank" class="social-icon" ><i class="fa fa-twitter"></i></a>  
+                <a href="https://www.pinterest.com/hoanganh2001vl/" target="_blank" class="social-icon" ><i class="fa fa-pinterest"></i></a>  
+                <a href="https://www.instagram.com/nhaanhctu/" target="_blank" class="social-icon" ><i class="fa fa-instagram"></i></a>
+            </div>
+        </div>
+    </body>
+
+    
+</html>
